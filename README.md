@@ -1,2 +1,2 @@
-# travel-app-II
+# travel-app
 React travel app
