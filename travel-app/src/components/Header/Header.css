@@ -1,26 +1,28 @@
-.header{
-    display:flex;
-    align-items: center;
-    justify-content:space-between;
+.header{   
+    margin:0; 
     padding: 20px;
+    justify-content: space-between;
     position:sticky;
     top:0;
     z-index:100;
-    background-color:white;
+}
+
+.header__left{
+padding-left: 1rem;
 }
 
 .header__logo{
     height:25px;
-    width:200px;
+    /* width:100px; */
     object-fit:contain;
     margin-left:20px;
-    border: 5px solid pink;
+    
 }
 
 .container_df_ai_jc {
     display:flex;
     align-items: center;
-    justify-content:space-between;
+    justify-content:center;
 }
 
 .container_df_ai {
@@ -35,11 +37,12 @@
 
 .header__input > input {
     border: none;
-    width:80%;
+    max-width:100%;
+    flex:1;
  }
 
  .header__inputButton {
-width:3.5rem;
+width:50px !important;
 background-color:#fafafa;
 border: 1px solid lightgray;
 color:gray;
@@ -50,4 +53,5 @@ margin-left:10px;
 }
 .header__icons{
     display:flex;
+
     }
