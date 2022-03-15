@@ -6,13 +6,6 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
 import SearchPage from "./components/SearchPage/SearchPage"
 
 function App() {
-  fetch("https://www.googleapis.com/youtube/v3/channels?id=7lCDEYXw3mM&key=AIzaSyDOxBrafja1d7GLIhgcnM_zwGP-87zfrF0&fields=items(id,snippet(channelId,title,categoryId),statistics)&part=snippet,statistics") 
-  .then(response => {
-    console.log(response);
-  })
-  .catch(err => {
-    console.error(err);
-  });
 
 return (
   <div className="app">
