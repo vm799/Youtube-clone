@@ -33,7 +33,10 @@ padding-left: 1rem;
 
 .header__input  {
     width:40%;
+    height: 40px;
    border: 1px solid lightgray;
+   display:flex;
+  
 }
 
 .header__input > input {
@@ -45,7 +48,7 @@ padding-left: 1rem;
  .header__inputButton {
 width:50px !important;
 background-color:#fafafa;
-border: 1px solid lightgray;
+/* border: 1px solid lightgray; */
 color:gray;
 }
 
@@ -54,5 +57,4 @@ margin-left:10px;
 }
 .header__icons{
     display:flex;
-
-    }
+}
